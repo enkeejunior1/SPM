@@ -4,7 +4,8 @@ from argparse import ArgumentParser
 
 import pandas as pd
 import torch
-from nudenet import NudeDetector, NudeClassifier
+from nudenet import NudeDetector
+# from nudenet import NudeDetector, NudeClassifier
 from prettytable import PrettyTable
 from tqdm import tqdm
 
